@@ -127,10 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="foreign_passport.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="passport.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ForeignPassport.h" />
+    <ClInclude Include="helper.h" />
     <ClInclude Include="Paasport.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
